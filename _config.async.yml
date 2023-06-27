@@ -129,3 +129,33 @@ lazyload:
 rightside:
   readmode: true # 阅读模式
   aside: true # 单双栏切换
+  search: true
+
+# 本地搜索
+search:
+  enable: true
+  type: local
+  preload: true
+
+# SEO 百度自动推送
+baidu_push: true
+
+# 评论
+comment:
+  giscus:
+    enable: true
+    repo: Ag0v0/Ag0v0.github.io
+    repo-id: R_kgDOJ0fZcA
+    category: Ideas
+    category-id: DIC_kwDOJ0fZcM4CXgDb
+    crossorigin: anonymous
+    mapping: pathname
+    input-position: top
+    reactions-enabled: 1
+    emit-metadata: 1
+    strict: 0
+    loading: lazy
+    lang: zh-CN
+    theme: 
+      light: light
+      dark: dark
