@@ -46,6 +46,24 @@
       </tags>
   </entry>
   <entry>
+    <title>写了个vscode插件，用于vscode内查看技术文档</title>
+    <url>/2023/06/27/%E5%86%99%E4%BA%86%E4%B8%AAvscode%E6%8F%92%E4%BB%B6%EF%BC%8C%E7%94%A8%E4%BA%8Evscode%E5%86%85%E6%9F%A5%E7%9C%8B%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/</url>
+    <content><![CDATA[<h2 id="OPEN-THE-DOC"><a href="#OPEN-THE-DOC" class="headerlink" title="OPEN THE DOC"></a>OPEN THE DOC</h2><p>作为一名优雅的 CV 工程师，切屏 CV 显然多少有些不雅（主要是懒 🤣），要是能在 vscode 直接打开文档就好了。于是乎，这个叫“Open The Doc”的小插件应运而生。</p>
+<hr>
+<p>下载：vscode 插件库搜索“Open The Doc”，或者也可以<a href="https://marketplace.visualstudio.com/items?itemName=Ghosts.open-the-doc&ssr=false#overview">点这</a>去下载</p>
+<p>Visual Studio Marketplace：<a href="https://marketplace.visualstudio.com/items?itemName=Ghosts.open-the-doc&ssr=false#review-details">https://marketplace.visualstudio.com</a></p>
+<p>GitHub：<a href="https://github.com/Ag0v0/open-the-doc">https://github.com/Ag0v0/open-the-doc</a></p>
+<hr>
+]]></content>
+      <categories>
+        <category>开发工具</category>
+      </categories>
+      <tags>
+        <tag>开发工具</tag>
+        <tag>vscode</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>前端使用浏览器的本地存储功能来保存网页数据到本地</title>
     <url>/2023/06/26/%E5%89%8D%E7%AB%AF%E4%BD%BF%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8%E5%8A%9F%E8%83%BD%E6%9D%A5%E4%BF%9D%E5%AD%98%E7%BD%91%E9%A1%B5%E6%95%B0%E6%8D%AE%E5%88%B0%E6%9C%AC%E5%9C%B0/</url>
     <content><![CDATA[<h2 id="前端使用浏览器的本地存储功能来保存网页数据到本地。"><a href="#前端使用浏览器的本地存储功能来保存网页数据到本地。" class="headerlink" title="前端使用浏览器的本地存储功能来保存网页数据到本地。"></a>前端使用浏览器的本地存储功能来保存网页数据到本地。</h2><p>下面是一些可用的方法：</p>
