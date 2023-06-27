@@ -1,0 +1,8 @@
+# 将要覆盖的语言
+en:
+  footer:
+    tips: "The blog has survived for %s years."
+
+zh-Hans:
+  footer:
+    tips: "此博客已苟活 %s 日"

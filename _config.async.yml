@@ -1,0 +1,131 @@
+# https://hexo-theme-async.imalun.com/
+
+# 主题模式
+theme:
+  switch: true
+  default: auto
+
+# 网站图标
+favicon:
+  logo: /assets/images/avatar.jpg
+  icon16: /assets/icons/favicon-16x16.png
+  icon32: /assets/icons/favicon-32x32.png
+  appleTouchIcon: /assets/icons/apple-touch-icon.png
+  webmanifest: /assets/icons/site.webmanifest
+  visibilitychange: false
+  # hidden: failure.ico
+  # showText: (/≧▽≦/)咦！又好了！
+  # hideText: (●—●)喔哟，崩溃啦！
+
+# 用户信息
+user:
+  name: Ag
+  first_name: Ag
+  last_name: Developer
+  email: i-am-ag@foxmail.com
+  domain: https://ag0.ren
+  avatar: /assets/images/avatar.jpg
+  describe: Ag的博客
+  ruleText: "--"
+# 导航栏
+# top_bars: # 导航栏
+#   - title: home
+#     url: /
+#     children:
+#       - title: archives2
+#         url: /archives2/
+#   - title: archives
+#     url: /archives/
+#     noswup: true
+
+sidebar:
+  social: # 社交地址
+    - name: github
+      icon: fab fa-github
+      url: https://github.com/Ag0v0
+    - name: QQ
+      icon: fab fa-qq
+      url: tencent://message/?uin=315323182&Site=Sambow&Menu=yes
+    - name: 微博
+      icon: fab fa-weibo
+      url: https://weibo.com/u/7471808686
+    - name: 知乎
+      icon: fab fa-zhihu
+      url: https://www.zhihu.com/people/ag0-45
+  typedTextPrefix: I`m # 打字动画
+  typedText: ["A Front End Developer", "A Handsome young man"]
+  info: # 个人信息
+    - key: CITY
+      val: ShenZhen
+    - key: AGE
+      val: 26
+
+# 横幅
+banner:
+  use_cover: true
+  default:
+    type: img
+    bgurl: https://api.likepoems.com/img/bing
+  index:
+    type: video
+    bgurl: /assets/videos/autumn.webm
+    bannerTitle: 人间畅快哪能久，<br>不悟红尘怎化仙？
+    bannerText: 你好，靓仔!
+
+# 页脚
+footer:
+  powered:
+    enable: false
+  beian:
+    enable: false
+    icp: 滇ICP备2023004086号
+  copyrightYear: 2023
+  live_time:
+    enable: true
+    prefix: footer.tips
+    start_time: 06/06/2023 00:00:00
+  custom_text: '
+    <div>
+      <a style="display: block;" target="_blank" href="https://beian.miit.gov.cn/">
+        滇ICP备 2023004086号
+      </a>
+      <a style="display: block; position: relative;" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=53032302000149">
+        <img src="/assets/icons/beian.png" style="position: absolute; top: 50%; left: -25px; transform: translateY(-50%);"/>
+        滇公网安备 53032302000149号
+      </a>
+    </div>
+  '
+
+  # Hosted by <a href="https://pages.github.com" rel="noopener" target="_blank">Github Pages</a>
+
+# 分类卡片
+categorie_card:
+  enable: true
+  len: 2
+  # list: ["前端", "后端"]
+
+# 封面图
+cover:
+  default: ["https://api.likepoems.com/img/bing"]
+  type: random
+
+# 上下篇文章
+post_pagination:
+  enable: true
+  type: small # large || small
+
+# 文章目录
+toc:
+  enable: true
+  list_number: true
+  max_depth: 5
+  min_depth: 3
+
+# 图片懒加载
+lazyload:
+  enable: true
+
+# 固定按钮块
+rightside:
+  readmode: true # 阅读模式
+  aside: true # 单双栏切换
