@@ -134,7 +134,7 @@ rightside:
 search:
   enable: true
   type: local
-  preload: true
+  # preload: true
   trigger: auto
 
 # SEO 百度自动推送
