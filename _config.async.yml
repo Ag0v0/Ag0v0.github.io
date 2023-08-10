@@ -101,7 +101,7 @@ footer:
 # 分类卡片
 categorie_card:
   enable: true
-  len: 2
+  len: 4
   # list: ["前端", "后端"]
 
 # 封面图
