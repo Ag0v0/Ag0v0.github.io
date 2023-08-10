@@ -7,21 +7,23 @@
 <meta name="full-screen" content="yes">
 <meta name="theme-color" content="#317EFB" />
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0" name="viewport">
-<meta name="description" content="Ag的博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Ag&#96;s Blog">
-<meta property="og:url" content="https://ag0.ren/tags/el-dialog/index.html">
+<meta name="description" content="Nginx 监听 WS 或 WSS 协议要将 NGINX 配置为监听 WS 或 WSS 协议的请求，可以在 NGINX 配置文件中使用 proxy_pass指令。以下是一个示例： 📋 Copy code➕ Insert codeserver &amp;#123;     listen 80;     server_name example.com;      location &#x2F; &amp;#123;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Nginx 监听WS或WSS协议">
+<meta property="og:url" content="https://ag0.ren/2023/08/10/Nginx%20%E7%9B%91%E5%90%ACWS%E6%88%96WSS%E5%8D%8F%E8%AE%AE/index.html">
 <meta property="og:site_name" content="Ag&#96;s Blog">
-<meta property="og:description" content="Ag的博客">
+<meta property="og:description" content="Nginx 监听 WS 或 WSS 协议要将 NGINX 配置为监听 WS 或 WSS 协议的请求，可以在 NGINX 配置文件中使用 proxy_pass指令。以下是一个示例： 📋 Copy code➕ Insert codeserver &amp;#123;     listen 80;     server_name example.com;      location &#x2F; &amp;#123;">
 <meta property="og:locale">
+<meta property="article:published_time" content="2023-08-10T02:04:42.000Z">
+<meta property="article:modified_time" content="2023-08-10T10:17:15.054Z">
 <meta property="article:author" content="Ag">
-<meta property="article:tag" content="Ag, 前端">
+<meta property="article:tag" content="Nginx">
 <meta name="twitter:card" content="summary">
 
     <meta name="keywords" content="Ag, 前端">
 
 
-<title >Ag`s Blog</title>
+<title >Nginx 监听WS或WSS协议</title>
 
 <!-- Favicon -->
 
@@ -67,7 +69,7 @@
 
 <!-- Variable -->
 <script>window.ASYNC_CONFIG = {"hostname":"ag0.ren","author":"Ag","root":"/","typed_text":["A Front End Developer","A Handsome young man"],"theme_version":"2.0.9","theme":{"switch":true,"default":"auto"},"favicon":{"logo":"/assets/images/avatar.jpg","icon16":"/assets/icons/favicon-16x16.png","icon32":"/assets/icons/favicon-32x32.png","appleTouchIcon":"/assets/icons/apple-touch-icon.png","webmanifest":"/assets/icons/site.webmanifest","visibilitychange":false,"hidden":"/failure.ico","showText":"(/≧▽≦/)咦！又好了！","hideText":"(●—●)喔哟，崩溃啦！"},"i18n":{"placeholder":"搜索文章...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）","author":"本文作者：","copyright_link":"本文链接：","copyright_license_title":"版权声明：","copyright_license_content":"本博客所有文章除特别声明外，均默认采用 undefined 许可协议。","copy_success":"复制成功","copy_failure":"复制失败","open_read_mode":"进入阅读模式","exit_read_mode":"退出阅读模式","notice_outdate_message":"距离上次更新已经 undefined 天了, 文章内容可能已经过时。","just":"刚刚","min":"分钟前","hour":"小时前","day":"天前","month":"个月前"},"swup":false,"plugin":{"flickr_justified_gallery":"https://unpkg.com/flickr-justified-gallery@latest/dist/fjGallery.min.js"},"icons":{"sun":"far fa-sun","moon":"far fa-moon","play":"fas fa-play","email":"far fa-envelope","next":"fas fa-arrow-right","calendar":"far fa-calendar-alt","clock":"far fa-clock","user":"far fa-user","back_top":"fas fa-arrow-up","close":"fas fa-times","search":"fas fa-search","reward":"fas fa-hand-holding-usd","user_tag":"fas fa-user-alt","toc_tag":"fas fa-th-list","read":"fas fa-book-reader","arrows":"fas fa-arrows-alt-h","double_arrows":"fas fa-angle-double-down","copy":"fas fa-copy"},"icontype":"font","highlight":{"plugin":"highlighjs","theme":true,"copy":true,"lang":true,"title":"default","height_limit":false},"covers":["https://api.likepoems.com/img/bing"],"search":{"enable":true,"type":"local","href":"https://www.google.com/search?q=site:","domain":null,"trigger":"auto","path":"search.xml"}};</script>
-<script id="async-page-config">window.PAGE_CONFIG = {"isPost":false,"isHome":false,"postUpdate":"2023-08-10 18:17:32"};</script>
+<script id="async-page-config">window.PAGE_CONFIG = {"isPost":true,"isHome":false,"postUpdate":"2023-08-10 18:17:15"};</script>
 
 <!-- Theme mode css -->
 <link data-swup-theme rel="stylesheet" href="/css/index.css?v=2.0.9" id="trm-switch-style">
@@ -200,7 +202,8 @@
             <!-- top bar end -->
 
             <!-- body -->
-            <div class="trm-content-start">
+            
+<div class="trm-content-start">
     <!-- banner -->
     <div class="trm-banner" data-scroll data-scroll-direction="vertical">
     
@@ -221,10 +224,10 @@
                     <!-- banner title -->
                     <div class="trm-banner-text ">
                         <div class="trm-label trm-mb-20">
-                            The article archive
+                            NEWS LETTER
                         </div>
                         <h1 class="trm-mb-30 trm-hsmb-font">
-                            云间连下榻，<br>天上接行杯。
+                            Nginx 监听WS或WSS协议
                         </h1>
 
                         
@@ -234,7 +237,7 @@
                                 </li>
                                 <li>
                                     <span>
-                                        tags
+                                        2023
                                     </span
                                 ></li>
                             </ul>
@@ -354,73 +357,145 @@
                 <div class="trm-content" id="trm-content">
                     <div data-scroll data-scroll-repeat data-scroll-offset="500" id="about-triger"></div>
 
-                    <div class="row">
-    <div class="col-lg-12">
-        <div class="trm-card">
-            <div style="padding: 0 20px;">
-                
-                    <ul class="row trm-tag-list trm-list" itemprop="keywords"><li class="col-lg-4 trm-list-item"><a class="tag-list-link" href="/tags/Element-ui/" rel="tag">Element-ui</a><span class="tag-list-count">1</span></li><li class="col-lg-4 trm-list-item"><a class="tag-list-link" href="/tags/Nginx/" rel="tag">Nginx</a><span class="tag-list-count">1</span></li><li class="col-lg-4 trm-list-item"><a class="tag-list-link" href="/tags/canvas/" rel="tag">canvas</a><span class="tag-list-count">1</span></li><li class="col-lg-4 trm-list-item"><a class="tag-list-link" href="/tags/css/" rel="tag">css</a><span class="tag-list-count">2</span></li><li class="col-lg-4 trm-list-item"><a class="tag-list-link" href="/tags/el-dialog/" rel="tag">el-dialog</a><span class="tag-list-count">1</span></li><li class="col-lg-4 trm-list-item"><a class="tag-list-link" href="/tags/vscode/" rel="tag">vscode</a><span class="tag-list-count">1</span></li><li class="col-lg-4 trm-list-item"><a class="tag-list-link" href="/tags/%E5%9B%BE%E7%89%87/" rel="tag">图片</a><span class="tag-list-count">1</span></li><li class="col-lg-4 trm-list-item"><a class="tag-list-link" href="/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/" rel="tag">开发工具</a><span class="tag-list-count">1</span></li><li class="col-lg-4 trm-list-item"><a class="tag-list-link" href="/tags/%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8/" rel="tag">本地存储</a><span class="tag-list-count">1</span></li></ul>
-                
-            </div>
+                    <div id="post-info" class="row hidden-sm">
+    <div class="col-sm-4">
+        <div class="trm-card trm-label trm-label-light text-center">
+            <i class="iconfont far fa-calendar-alt trm-icon"></i><br>
+            08/10
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="trm-card trm-label trm-label-light text-center">
+            <i class="iconfont far fa-clock trm-icon"></i><br>
+            10:04
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div id="post-author" class="trm-card trm-label trm-label-light text-center">
+            <i class="iconfont far fa-user trm-icon"></i><br>
+            Ag
         </div>
     </div>
 </div>
+<div class="trm-card ">
+    <article id="article-container" class="trm-publication">
+    <h2 id="Nginx-监听-WS-或-WSS-协议"><a href="#Nginx-监听-WS-或-WSS-协议" class="headerlink" title="Nginx 监听 WS 或 WSS 协议"></a>Nginx 监听 WS 或 WSS 协议</h2><p>要将 NGINX 配置为监听 WS 或 WSS 协议的请求，可以在 NGINX 配置文件中使用 <code>proxy_pass</code>指令。以下是一个示例：</p>
+<pre class="nginx language-nginx"><button class="copy-button">📋 Copy code</button><button class="insert-code-button">➕ Insert code</button><code class="hljs nginx language-nginx" id="M1wx2Tji8VOEex4vNJSyRp4MbBQeWGrs">server &#123;
+    listen 80;
+    server_name example.com;
 
-<!-- history -->
+    location / &#123;
+        proxy_pass http://your_websocket_server;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "Upgrade";
+    &#125;
+&#125;
+</code></pre>
 
-<div class="row">
+<p>在这个示例中，NGINX 会在端口 80 上监听传入的 HTTP 请求，并使用 <code>proxy_pass</code>指令将它们代理到指定的 WebSocket 服务器。<code>proxy_http_version</code>和 <code>proxy_set_header</code>指令用于处理 WebSocket 协议的升级。</p>
+<p>如果想使用安全的 WSS 协议，可以配置 NGINX 在端口 443 上监听，并使用 SSL 证书。以下是一个示例：</p>
+<pre class="nginx language-nginx"><button class="copy-button">📋 Copy code</button><button class="insert-code-button">➕ Insert code</button><code class="hljs nginx language-nginx" id="c9fzZFucfx9cGfsgEqZlfoNkeYsyCqzK">server &#123;
+    listen 443 ssl;
+    server_name example.com;
+
+    ssl_certificate /path/to/certificate.crt;
+    ssl_certificate_key /path/to/private_key.key;
+
+    location / &#123;
+        proxy_pass http://your_websocket_server;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "Upgrade";
+    &#125;
+&#125;
+</code></pre>
+
+<p>将 <code>example.com</code>替换为自己的域名，将 <code>your_websocket_server</code>替换为实际 WebSocket 服务器的 URL 或 IP 地址。此外，请确保为 WSS 配置提供正确的 SSL 证书和私钥文件路径。</p>
+<p>在进行这些更改后，请记得重新加载或重启 NGINX，以使更改生效。</p>
+
+</article>
+    
+    
+
+</div>
+<div id="post-next-prev" class="row">
     <div class="col-lg-12">
         <!-- title -->
         <h5 class="trm-title-with-divider">
-            
-                el-dialog
-            
-            <span data-number="01"></span>
+            其他文章
+            <span data-number="02"></span>
         </h5>
     </div>
-    <div class="col-lg-12">
-        <!-- timeline -->
-        <div class="trm-timeline">
+    
+    
+        <div class="col-lg-6">
+    <div class="trm-older-publications-card trm-scroll-animation trm-active-el" data-scroll="" data-scroll-offset="40">
+        <div class="trm-older-publication">
             
-            <div class="trm-timeline-item trm-scroll-animation" data-scroll data-scroll-offset="40">
-                <div class="trm-timeline-mark-light"></div>
-                <div class="trm-timeline-mark"></div>
-                <div class="trm-a trm-timeline-content more">
-                    
-                        <div class="trm-card-header">
-                            <div class="trm-left-side">
-                                <h6>
-                                    <a href="/2023/06/26/%E4%BD%BF%E7%94%A8%20el-dialog%20%E9%87%8C%E5%B5%8C%E5%A5%97%20tabs%EF%BC%8C%E5%AF%BC%E8%87%B4%E5%85%B3%E9%97%AD%20dialog%20%E6%97%B6%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98/" class="trm-anima-link">
-                                        使用 el-dialog 里嵌套 tabs，导致关闭 dialog 时浏览器卡死问题
-                                    </a>
-                                </h6>
-                                <div class="trm-text-sm trm-accent-color trm-mt-15">
-                                    <ul class="trm-card-data trm-label ">
-                                        <li class="trm-accent-color">06/26</li>
-                                        <li class="trm-accent-color">10:04</li>
-                                        
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    
-                </div>
-            </div>
-            
+            <a class="trm-op-top trm-anima-link" href="/2023/06/27/%E5%86%99%E4%BA%86%E4%B8%AAvscode%E6%8F%92%E4%BB%B6%EF%BC%8C%E7%94%A8%E4%BA%8Evscode%E5%86%85%E6%9F%A5%E7%9C%8B%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">
+                <span class="trm-op-cover">
+                    <img alt="cover" class="no-fancybox" src="https://api.likepoems.com/img/bing">
+                </span>
+                <h6 class="trm-op-title">写了个vscode插件，用于vscode内查看技术文档</h6>
+            </a>
+            <div class="trm-divider trm-mb-15 trm-mt-20"></div>
+            <ul class="trm-card-data trm-label">
+                <li>23/06/27</li>
+                <li>17:07</li>
+                <li>开发工具</li>
+            </ul>
         </div>
-        <!-- timeline end -->
     </div>
 </div>
+    
+</div>
 
-<!-- history end -->
+    
 
+    <div id="giscus-wrap" class="trm-card trm-scroll-animation comment-container" data-scroll data-scroll-offset="50"></div>
+<script data-swup-reload-script>
+    function loadGiscus() {
+        let nowTheme = document.documentElement.classList.contains('dark') ? 'dark' : 'light'
+        const config = {
+            src: 'https://giscus.app/client.js',
+            "data-repo": 'Ag0v0/Ag0v0.github.io',
+            "data-repo-id": 'R_kgDOJ0fZcA',
+            "data-category": 'General',
+            "data-category-id": 'DIC_kwDOJ0fZcM4CXgDZ',
+            "data-mapping": 'pathname',
+            "data-reactions-enabled": '1',
+            "data-emit-metadata": '1',
+            "data-theme": nowTheme,
+            "data-lang": 'zh-CN',
+            crossorigin: "anonymous",
+            async: true
+        }
+        let ele = document.createElement('script')
+        for (let key in config) {
+            ele.setAttribute(key, config[key])
+        }
+        document.getElementById('giscus-wrap').insertAdjacentElement('afterbegin', ele)
+    }
 
-    <div class="trm-pagination">
-        <span class="page-number current">1</span>
-    </div>
+    function changeGiscusTheme() {
+        let theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light'
 
+        function sendMessage(message) {
+            const iframe = document.querySelector('iframe.giscus-frame');
+            if (!iframe) return;
+            iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
 
+        sendMessage({
+            setConfig: {
+                theme: theme
+            }
+        });
+    }
+
+    loadGiscus();
+</script>
 
 
 
@@ -476,6 +551,10 @@
             <!-- body end -->
 
             <div class="trm-fixed-container" data-scroll data-scroll-sticky data-scroll-target=".locomotive-scroll__sticky-target" data-scroll-offset="-10">
+    
+        <div class="trm-fixed-btn" data-title="阅读模式" onclick="asyncFun.switchReadMode()">
+            <i class="iconfont fas fa-book-reader"></i>
+        </div>
     
     
         <div class="trm-fixed-btn" data-title="单栏和双栏切换" onclick="asyncFun.switchSingleColumn()">
@@ -561,6 +640,10 @@
     
 
     <!-- 评论插件 -->
+    
+        
+
+        
     
 
 
